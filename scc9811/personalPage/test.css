@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'establishRoomNo703OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRoomNo703OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{
+    margin:0 auto;
+    background-color: #F5EBEB;
+    font-family: 'establishRoomNo703OTF';
+}
+#workspace{
+    margin-top :75px;
+    width: 1000px;
+    height: 1000px;
+    /* background-color: white; */
+}
+#title_area{
+    position:relative;
+    padding-top : 0;
+    text-align: center;
+    top:50px;
+    height : 50px;
+    line-height: 50px;
+    /* background-color: aquamarine; */
+}
+
+#flex{
+    display: flex;
+}
+
+#cp_image{
+    margin-top:0;
+}
+#cp_text_area{
+    /* background-color: aquamarine; */
+    height: 200px;
+    margin-left : 40px;
+    margin-top : 75px;
+    line-height : 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* background-color: bisque; */
+}
+
+#badminton_image{
+    margin-left:50px;
+    margin-top:50px;
+}
+
+#badminton_text_area{
+    margin-left : 100px;
+    height: 200px;
+    margin-top : 35px;
+    line-height : 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#languages_image{
+    margin-top : 30px;
+
+}
+#languages_text_area{
+    margin-left : 50px;
+    height: 200px;
+    margin-top : 50px;
+    line-height : 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+#schedule_area{
+    margin-top : 100px;
+    /* margin-left : 50px; */
+    /* background-color: #E4D0D0; */
+    height: 500px;
+    width: 300px;
+}
+table{
+    text-align: center;
+    color : white;
+    background-color: #D5B4B4;
+    border: 2px solid #d2d2d2;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+th, td{
+    /* border: 1px solid #d2d2d2; */
+    border : 1px solid white;
+    border-collapse: collapse;
+    color : white;
+}
+th{
+    height: 20px;
+}
+
+td{
+    width: 75px;
+    height: 15px;
+}
