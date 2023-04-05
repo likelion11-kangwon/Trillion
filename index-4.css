@@ -1,3 +1,173 @@
 #quiz-scroll{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/*-----------------------------page init 부분------------------------*/
+
+#quiz_main {
+    width: 90%;
+    height: 90%;
+    /* display : none; */
+}
+
+#quiz_page1{
+    width : 100%;
+    height : 100%;
+    /* display:none; */
+}
+#quiz_page2{
+    width : 100%;
+    height : 100%;
+    /* display:none; */
+}
+#quiz_page3{
+    width : 100%;
+    height : 100%;
+    /* display:none; */
+}
+#quiz_page4{
+    width : 100%;
+    height : 100%;
+    /* display:none; */
+}
+#quiz_page5{
+    width : 100%;
+    height : 100%;
+    /* display:none; */
+}
+#quiz_correct_workspace{
+    width: 90%;
+    height: 90%;
+}
+#quiz_o_correct{
+    width : 100%;
+    height : 100%;
+    background-color: #146C94;
+    /* display:none; */
+}
+#quiz_o_incorrect{
+    width : 100%;
+    height : 100%;
+    background-color: #c25450;
+    /* display:none; */
+}
+#quiz_x_correct{
+    width : 100%;
+    height : 100%;
+    background-color: #146C94;
+    /* display:none; */
+}
+#quiz_x_incorrect{
+    width : 100%;
+    height : 100%;
+    background-color: #c25450;
+    /* display:none; */
+}
+
+/*------------------------- 여기까지 -----------------------------------*/
+
+
+
+#quiz_main_text_area{
+    color : #f6f1f1;
+    font-size : 200px;
+    margin-left : 100px;
+    margin-top : 100px;
+}
+#wrapper{
+    width: 50%;
+    margin:0 auto;
+    text-align: right;
+    background-color: rgb(124, 65, 65);
+}
+#quiz_start_button_area{
+    height: 25%;
+    text-align: right;
+
+
+}
+#quiz_start_button{
+    background-color : #146C94;
+    color : #f6f1f1;
+    font-size : 36px;
+    width : 40%;
+    height: 100%;
+    border : none;
+    border-radius : 10px;
+    box-shadow: 2px 2px 6px 2px #dadce0 inset;
+
+}
+
+
+
+
+
+#quiz_page_number{
+    padding-left:50px;
+    height: 20%;
+    line-height:200px;
+    font-size:50px;
+    color:white;
+}
+
+#quiz_question{
+    width:80%;
+    height:20%;
+    /* 가운데 정렬 */
+    margin:0 auto;
+    text-align: center;
+    font-size :50px;
+    color : white;
+}
+#quiz_ox_cards{
+    display:flex;
+    width : 60%;
+    margin : 0 auto;
+    height : 50%;
+}
+#quiz_card_area{
+    width:27.5%;
+    height:100%;
+    margin:0 auto;
     
+}
+#quiz_OX_Button{
+    width: 100%;
+    height: 100%;
+    background-color : #146C94;
+    color : #f6f1f1;
+    font-size : 200px;
+    border-radius : 10px;
+    box-shadow: 2px 2px 6px 2px #dadce0 inset;
+}
+#quiz_correct_text_area{
+    display: flex;
+    color:white;
+}
+#quiz_correct_ox_text{
+    font-size : 500px;
+    margin-left : 100px;
+}
+#quiz_correct_tf_text{
+    font-size : 100px;
+    margin-left : 100px;
+    margin-top : 400px;
+}
+#next_quiz_button_area{
+    height: 20%;
+    text-align: right;
+}
+
+#next_quiz_button{
+    background-color : #3f4f52;
+    color : #f6f1f1;
+    font-size : 36px;
+    width : 600px;
+    height : 200px;
+    border : none;
+    border-radius : 10px;
+    box-shadow: 2px 2px 6px 2px #dadce0 inset;
 }
