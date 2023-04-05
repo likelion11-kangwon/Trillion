@@ -1,0 +1,43 @@
+* {
+    background-color: #f7f8f2
+
+}
+h1 {
+    text-align : left;
+    margin : 100px;
+}
+.container span {    
+    text-align: center;
+    margin-top: 174px;
+    font-size: 30px;
+    color: #376a2f;
+    margin: 200px;
+}
+.container span:first-child{
+    
+}
+.container span:scond-child{
+ 
+}
+.container span:last-child{
+    /* position: absolute;
+        left: 50px;
+        top: 70px;
+         */
+   
+}
+
+
+.inline {
+    top: 400px;
+    left: 110px;
+    position : absolute;
+
+    font-family: inter;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 39px;
+     text-align: center;
+    
+    color: #c09997;
+}
