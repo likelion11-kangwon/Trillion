@@ -8,6 +8,9 @@
 		<link rel="stylesheet" href="index-2.css">
 		<link rel="stylesheet" href="index-3.css">
 		<link rel="stylesheet" href="index-4.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="img/confetti_v2.js"></script>
+		<script src="index.js"></script>
         <title>내 통장에 1조</title>
     </head>
     <body>
@@ -148,8 +151,27 @@
                     </div>
                 </div>
             </div>
-        
-			
+			<div id="quiz-final">
+				<div id="quiz-final-header"></div>
+				<div id="quiz-final-body">
+					<div id="quiz-final-title">
+						n문제를 맞췄습니다!
+					</div>
+					<div id="quiz-final-body-img">
+						<img src="img/quiz-cong.png">
+					</div>
+					<div id="quiz-final-body-text">
+						<div id="quiz-final-comment">
+							곰두리를 클릭하여 맨 위로 이동하세요
+						</div>
+					</div>
+				</div>
+				<canvas id="canvas"></canvas>
+				<div id="buttonContainer">
+					<button class="canvasBtn" id="stopButton"></button>
+					<button class="canvasBtn" id="startButton"></button>
+				</div>
+			</div>
         </div>
     </body>
 </html>
