@@ -1,3 +1,46 @@
 #team-scroll{
-    
+ 	background-color: #f7f8f2;   
+}
+
+#team-scroll-title {
+    text-align : left;
+    margin : 100px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.container div {    
+    flex-basis: 30%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #376a2f;
+}
+
+.container div:last-child{
+    left: 900px;    
+}
+
+.inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.inline span{
+    flex-basis: 30%;
+    text-align: center;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 39px;    
+    color: #c09997;
+}
+
+.inline span:last-child{
+    left: 900px;    
 }
