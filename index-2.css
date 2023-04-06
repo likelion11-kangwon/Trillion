@@ -1,11 +1,8 @@
 #team-scroll{
-    
-}
-* {
-    background-color: #f7f8f2
+ 	background-color: #f7f8f2;   
 }
 
-h1 {
+#team-scroll-title {
     text-align : left;
     margin : 100px;
     font-weight: 700;
