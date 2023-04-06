@@ -8,6 +8,9 @@
 		<link rel="stylesheet" href="index-2.css">
 		<link rel="stylesheet" href="index-3.css">
 		<link rel="stylesheet" href="index-4.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="img/confetti_v2.js"></script>
+		<script src="index.js"></script>
         <title>내 통장에 1조</title>
     </head>
     <body>
@@ -21,7 +24,156 @@
 
         </div>
         <div id="quiz-scroll">
-			
+            <div id="quiz_main">
+                <div id="quiz_main_text_area">
+                    <h4 id="quiz_main_text">O X 퀴즈</h4>
+                </div>
+                <div id="quiz_start_button_area"></div>
+                <div id="quiz_start_button_area">
+                    <button id="quiz_start_button">문제 풀러가기 -></button>
+                </div>
+            </div>
+            <!-- 퀴즈 O/X 선택 페이지-->
+        
+            <div id="quiz_page1">
+                <div id="quiz_page_number">Quiz 1</div>
+                <div id="quiz_question">~~~ 문제1 ~~~</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">O</button>
+                    </div>
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">X</button>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+            <div id="quiz_page2">
+                <div id="quiz_page_number">Quiz 2</div>
+                <div id="quiz_question">~~~ 문제2 ~~~</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">O</button>
+                    </div>
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">X</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_page3">
+                <div id="quiz_page_number">Quiz 3</div>
+                <div id="quiz_question">~~~ 문제3 ~~~</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">O</button>
+                    </div>
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">X</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_page4">
+                <div id="quiz_page_number">Quiz 4</div>
+                <div id="quiz_question">~~~ 문제4 ~~~</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">O</button>
+                    </div>
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">X</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="quiz_page5">
+                <div id="quiz_page_number">Quiz 5</div>
+                <div id="quiz_question">~~~ 문제5 ~~~</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">O</button>
+                    </div>
+                    <div id="quiz_card_area">
+                        <button id="quiz_OX_Button">X</button>
+                    </div>
+                </div>
+            </div>
+        
+            
+        
+            <!-- 퀴즈 정답여부 페이지-->
+            <div id="quiz_o_correct">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">O</div>
+                        <div id="quiz_correct_tf_text">정답입니다!</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <button id="next_quiz_button">다음문제 -></button>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div id="quiz_o_incorrect">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">O</div>
+                        <div id="quiz_correct_tf_text">오답입니다...</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <button id="next_quiz_button">다음문제 -></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_x_correct">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">X</div>
+                        <div id="quiz_correct_tf_text">정답입니다!</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <button id="next_quiz_button">다음문제 -></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_x_incorrect">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">X</div>
+                        <div id="quiz_correct_tf_text">오답입니다...</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <button id="next_quiz_button">다음문제 -></button>
+                    </div>
+                </div>
+            </div>
+			<div id="quiz-final" style="display:none;">
+				<div id="quiz-final-header"></div>
+				<div id="quiz-final-body">
+					<div id="quiz-final-title">
+						n문제를 맞췄습니다!
+					</div>
+					<div id="quiz-final-body-img">
+						<img src="img/quiz-cong.png">
+					</div>
+					<div id="quiz-final-body-text">
+						<div id="quiz-final-comment">
+							곰두리를 클릭하여 맨 위로 이동하세요
+						</div>
+					</div>
+				</div>
+				<canvas id="canvas"></canvas>
+				<div id="buttonContainer">
+					<button class="canvasBtn" id="stopButton"></button>
+					<button class="canvasBtn" id="startButton"></button>
+				</div>
+			</div>
         </div>
     </body>
 </html>

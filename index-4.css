@@ -1,3 +1,253 @@
 #quiz-scroll{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+/*-----------------------------page init 부분------------------------*/
+
+#quiz_main {
+    width: 90%;
+    height: 90%;
+    display : none;
+}
+
+#quiz_page1{
+    width : 100%;
+    height : 100%;
+    display:none;
+}
+#quiz_page2{
+    width : 100%;
+    height : 100%;
+    display:none;
+}
+#quiz_page3{
+    width : 100%;
+    height : 100%;
+    display:none;
+}
+#quiz_page4{
+    width : 100%;
+    height : 100%;
+    display:none;
+}
+#quiz_page5{
+    width : 100%;
+    height : 100%;
+    display:none;
+}
+#quiz_correct_workspace{
+    width: 90%;
+    height: 90%;
+}
+#quiz_o_correct{
+    width : 100%;
+    height : 100%;
+    background-color: #146C94;
+    display:none;
+}
+#quiz_o_incorrect{
+    width : 100%;
+    height : 100%;
+    background-color: #c25450;
+    display:none;
+}
+#quiz_x_correct{
+    width : 100%;
+    height : 100%;
+    background-color: #146C94;
+    display:none;
+}
+#quiz_x_incorrect{
+    width : 100%;
+    height : 100%;
+    background-color: #c25450;
+    display:none;
+}
+
+/*------------------------- 여기까지 -----------------------------------*/
+
+
+
+#quiz_main_text_area{
+    height: 200px; 
+    color : #f6f1f1;
+    font-size : 200px;
+}
+#quiz_main_text{
+    padding-left: 50px;
+    padding-top : 50px;
+    margin-top:0;
+    position: relative;
+}
+
+#wrapper{
+    width: 50%;
+    margin:0 auto;
+    text-align: right;
+    background-color: rgb(124, 65, 65);
+}
+#quiz_start_button_area{
+    height: 300px;
+    text-align: right;
+
+
+}
+#quiz_start_button{
+    background-color : #146C94;
+    color : #f6f1f1;
+    font-size : 36px;
+    width : 600px;
+    height: 200px;
+    border : none;
+    border-radius : 10px;
+    box-shadow: 2px 2px 6px 2px #dadce0 inset;
+
+}
+
+
+
+
+#quiz_page_number{
+    padding-left:50px;
+    height: 20%;
+    line-height:200px;
+    font-size:50px;
+    color:white;
+}
+
+#quiz_question{
+    width:80%;
+    height:20%;
+    /* 가운데 정렬 */
+    margin:0 auto;
+    text-align: center;
+    font-size :50px;
+    color : white;
+}
+#quiz_ox_cards{
+    display:flex;
+    width : 60%;
+    margin : 0 auto;
+    height : 50%;
+}
+#quiz_card_area{
+    width:27.5%;
+    height:100%;
+    margin:0 auto;
     
+}
+#quiz_OX_Button{
+    width: 100%;
+    height: 100%;
+    background-color : #146C94;
+    color : #f6f1f1;
+    font-size : 200px;
+    border-radius : 10px;
+    box-shadow: 2px 2px 6px 2px #dadce0 inset;
+}
+#quiz_correct_text_area{
+    height: 550px;
+    display: flex;
+    color:white;
+}
+#quiz_correct_ox_text{
+    font-size : 500px;
+    margin-left : 100px;
+}
+#quiz_correct_tf_text{
+    font-size : 100px;
+    margin-left : 100px;
+    margin-top : 400px;
+}
+#next_quiz_button_area{
+    height: 200px;
+    text-align: right;
+}
+
+#next_quiz_button{
+    background-color : #3f4f52;
+    color : #f6f1f1;
+    font-size : 36px;
+    width : 600px;
+    height : 200px;
+    border : none;
+    border-radius : 10px;
+    box-shadow: 2px 2px 6px 2px #dadce0 inset;
+}
+
+@font-face {
+	font-family: "Godo";
+	src: url('img/GodoM.woff') format('woff');
+}
+
+#quiz-final {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	color: white;
+	font-family: "Godo";
+}
+
+#quiz-final-header {
+	height: 70px;
+}
+
+#quiz-final-title {
+	width: 100%;
+	height: 100px;
+	font-size: 40pt;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#quiz-final-body {
+	height: 100%;
+}
+
+#quiz-final-body-img {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#quiz-final-body-img img {
+	width: 100%;
+	height: 100%;
+	filter: drop-shadow(0px 0px 10px rgb(220, 220, 220));
+	Animation:cong-animation 0.6s Alternate Infinite;
+}
+
+#quiz-final-body-text {
+	margin-top: 50px;
+}
+
+#quiz-final-comment {
+	text-align: center;
+	font-size: 16pt;
+}
+
+canvas {
+	z-index: 10;
+	pointer-events: none;
+	position: fixed;
+	top: 0;
+	transform: scale(1.1);
+}
+
+#buttonContainer {
+	display: none;
+}
+
+@keyframes cong-animation{
+	0%{
+		transform:scaleY(0.98);
+		filter: drop-shadow(0px 0px 10px rgb(220, 220, 220));
+	}
+	to{
+		transform:scaleY(1.0);
+		filter: drop-shadow(0px 0px 12px rgb(220, 160, 220));
+	}
 }
