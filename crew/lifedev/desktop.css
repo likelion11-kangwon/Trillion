@@ -104,11 +104,12 @@
 	margin-right: 10px;
 }
 
-#name_kor{
-	display:inline-block;
+#name_kor {
+	display: inline-block;
 }
-#name_eng{
-	display:inline-block;
+
+#name_eng {
+	display: inline-block;
 }
 
 #profile-school {
@@ -141,7 +142,7 @@
 .language-line img {
 	width: 50px;
 	height: 50px;
-	filter:drop-shadow(1px 1px 4px #aaaaaa);
+	filter: drop-shadow(1px 1px 4px #aaaaaa);
 	float: left;
 }
 
@@ -172,6 +173,16 @@
 	line-height: 200%;
 }
 
+#tier-img {
+	display: inline-block;
+	height: 30px;
+}
+
+#tier-text {
+	display: inline-block;
+	line-height: 30px;
+	vertical-align: top;
+}
 
 
 #footer {
