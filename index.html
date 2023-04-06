@@ -85,80 +85,80 @@
 
         </div>
         <div id="quiz-scroll">
-            <div id="quiz_main">
+            <div id="quiz_main" class="">
                 <div id="quiz_main_text_area">
                     <h4 id="quiz_main_text">O X 퀴즈</h4>
                 </div>
                 <div id="quiz_start_button_area"></div>
                 <div id="quiz_start_button_area">
-                    <button id="quiz_start_button">문제 풀러가기 -></button>
+                    <button id="quiz_start_button" onclick="movePage(1)">문제 풀러가기 -></button>
                 </div>
             </div>
             <!-- 퀴즈 O/X 선택 페이지-->
         
-            <div id="quiz_page1">
+            <div id="quiz_page1" class="hide_page">
                 <div id="quiz_page_number">Quiz 1</div>
                 <div id="quiz_question">~~~ 문제1 ~~~</div>
                 <div id="quiz_ox_cards">
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">O</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(0, 1)">O</button>
                     </div>
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">X</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(0, 0)">X</button>
                     </div>
                 </div>
             </div>
         
         
         
-            <div id="quiz_page2">
+            <div id="quiz_page2" class="hide_page">
                 <div id="quiz_page_number">Quiz 2</div>
                 <div id="quiz_question">~~~ 문제2 ~~~</div>
                 <div id="quiz_ox_cards">
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">O</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(1, 1)">O</button>
                     </div>
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">X</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(1, 0)">X</button>
                     </div>
                 </div>
             </div>
         
-            <div id="quiz_page3">
+            <div id="quiz_page3" class="hide_page">
                 <div id="quiz_page_number">Quiz 3</div>
                 <div id="quiz_question">~~~ 문제3 ~~~</div>
                 <div id="quiz_ox_cards">
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">O</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(2, 1)">O</button>
                     </div>
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">X</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(2, 0)">X</button>
                     </div>
                 </div>
             </div>
         
-            <div id="quiz_page4">
+            <div id="quiz_page4" class="hide_page">
                 <div id="quiz_page_number">Quiz 4</div>
                 <div id="quiz_question">~~~ 문제4 ~~~</div>
                 <div id="quiz_ox_cards">
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">O</button>
+                        <button id="quiz_OX_Button"  onclick="chooseAns(3, 1)">O</button>
                     </div>
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">X</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(3, 0)">X</button>
                     </div>
                 </div>
             </div>
             
-            <div id="quiz_page5">
+            <div id="quiz_page5" class="hide_page">
                 <div id="quiz_page_number">Quiz 5</div>
                 <div id="quiz_question">~~~ 문제5 ~~~</div>
                 <div id="quiz_ox_cards">
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">O</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(4, 1)">O</button>
                     </div>
                     <div id="quiz_card_area">
-                        <button id="quiz_OX_Button">X</button>
+                        <button id="quiz_OX_Button" onclick="chooseAns(4, 0)">X</button>
                     </div>
                 </div>
             </div>
@@ -166,62 +166,62 @@
             
         
             <!-- 퀴즈 정답여부 페이지-->
-            <div id="quiz_o_correct">
+            <div id="quiz_o_correct" class="hide_page">
                 <div id="quiz_correct_workspace">
                     <div id="quiz_correct_text_area">
                         <div id="quiz_correct_ox_text">O</div>
                         <div id="quiz_correct_tf_text">정답입니다!</div>
                     </div>
                     <div id="next_quiz_button_area">
-                        <button id="next_quiz_button">다음문제 -></button>
+                        <button id="next_quiz_button" onclick="nextProblem()">다음문제 -></button>
                     </div>
                 </div>
             </div>
         
             
-            <div id="quiz_o_incorrect">
+            <div id="quiz_o_incorrect" class="hide_page">
                 <div id="quiz_correct_workspace">
                     <div id="quiz_correct_text_area">
                         <div id="quiz_correct_ox_text">O</div>
                         <div id="quiz_correct_tf_text">오답입니다...</div>
                     </div>
                     <div id="next_quiz_button_area">
-                        <button id="next_quiz_button">다음문제 -></button>
+                        <button id="next_quiz_button" onclick="nextProblem()">다음문제 -></button>
                     </div>
                 </div>
             </div>
         
-            <div id="quiz_x_correct">
+            <div id="quiz_x_correct" class="hide_page">
                 <div id="quiz_correct_workspace">
                     <div id="quiz_correct_text_area">
                         <div id="quiz_correct_ox_text">X</div>
                         <div id="quiz_correct_tf_text">정답입니다!</div>
                     </div>
                     <div id="next_quiz_button_area">
-                        <button id="next_quiz_button">다음문제 -></button>
+                        <button id="next_quiz_button" onclick="nextProblem()">다음문제 -></button>
                     </div>
                 </div>
             </div>
         
-            <div id="quiz_x_incorrect">
+            <div id="quiz_x_incorrect" class="hide_page">
                 <div id="quiz_correct_workspace">
                     <div id="quiz_correct_text_area">
                         <div id="quiz_correct_ox_text">X</div>
                         <div id="quiz_correct_tf_text">오답입니다...</div>
                     </div>
                     <div id="next_quiz_button_area">
-                        <button id="next_quiz_button">다음문제 -></button>
+                        <button id="next_quiz_button" onclick="nextProblem()">다음문제 -></button>
                     </div>
                 </div>
             </div>
-			<div id="quiz-final" style="display:none;">
+			<div id="quiz-final" class="hide_page">
 				<div id="quiz-final-header"></div>
 				<div id="quiz-final-body">
 					<div id="quiz-final-title">
 						n문제를 맞췄습니다!
 					</div>
 					<div id="quiz-final-body-img">
-						<img src="img/quiz-cong.png">
+						<img src="img/quiz-cong.png" onclick="moveTop()">
 					</div>
 					<div id="quiz-final-body-text">
 						<div id="quiz-final-comment">

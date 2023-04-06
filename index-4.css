@@ -10,33 +10,27 @@
 #quiz_main {
     width: 90%;
     height: 90%;
-    display : none;
 }
 
 #quiz_page1{
     width : 100%;
     height : 100%;
-    display:none;
 }
 #quiz_page2{
     width : 100%;
     height : 100%;
-    display:none;
 }
 #quiz_page3{
     width : 100%;
     height : 100%;
-    display:none;
 }
 #quiz_page4{
     width : 100%;
     height : 100%;
-    display:none;
 }
 #quiz_page5{
     width : 100%;
     height : 100%;
-    display:none;
 }
 #quiz_correct_workspace{
     width: 90%;
@@ -46,25 +40,21 @@
     width : 100%;
     height : 100%;
     background-color: #146C94;
-    display:none;
 }
 #quiz_o_incorrect{
     width : 100%;
     height : 100%;
     background-color: #c25450;
-    display:none;
 }
 #quiz_x_correct{
     width : 100%;
     height : 100%;
     background-color: #146C94;
-    display:none;
 }
 #quiz_x_incorrect{
     width : 100%;
     height : 100%;
     background-color: #c25450;
-    display:none;
 }
 
 /*------------------------- 여기까지 -----------------------------------*/
@@ -204,7 +194,6 @@
 }
 
 #quiz-final-body {
-	height: 100%;
 }
 
 #quiz-final-body-img {
@@ -250,4 +239,8 @@ canvas {
 		transform:scaleY(1.0);
 		filter: drop-shadow(0px 0px 12px rgb(220, 160, 220));
 	}
+}
+
+.hide_page{
+	display:none;
 }
