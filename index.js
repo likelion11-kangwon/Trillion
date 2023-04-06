@@ -22,7 +22,7 @@ var cur=0;
 var answer=[1, 0, 1, 0, 1];
 
 function movePage(n){
-	for(var i=0; i<n; i++){
+	for(var i=0; i<10; i++){
 		document.querySelector(pages[i]).classList.add("hide_page");
 	}
 	document.querySelector(pages[n]).classList.remove("hide_page");
