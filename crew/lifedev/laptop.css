@@ -134,7 +134,7 @@
 		width: 40px;
 		height: 40px;
 		float: left;
-		filter:drop-shadow(1px 1px 3px #aaaaaa);
+		filter: drop-shadow(1px 1px 3px #aaaaaa);
 	}
 
 	#language-line-detail {
@@ -162,6 +162,17 @@
 
 	.topic-detail {
 		line-height: 200%;
+	}
+
+	#tier-img {
+		display: inline-block;
+		height: 26px;
+	}
+
+	#tier-text {
+		display: inline-block;
+		line-height: 26px;
+		vertical-align: top;
 	}
 
 

@@ -132,7 +132,7 @@
 	.language-line img {
 		width: 30px;
 		height: 30px;
-		filter:drop-shadow(1px 1px 3px #aaaaaa);
+		filter: drop-shadow(1px 1px 3px #aaaaaa);
 		float: left;
 	}
 
@@ -161,6 +161,17 @@
 
 	.topic-detail {
 		line-height: 200%;
+	}
+
+	#tier-img {
+		display: inline-block;
+		height: 24px;
+	}
+
+	#tier-text {
+		display: inline-block;
+		line-height: 24px;
+		vertical-align: top;
 	}
 
 
