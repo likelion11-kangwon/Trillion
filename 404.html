@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>404</title>
+	</head>
+
+	<body>
+		<div id="header"></div>
+		<div id="detail">
+			<div id="wrapper">
+				<div id="detail-title">찾으시는 페이지가 없어요...</div>
+				<div id="detail-img">
+					<img src="img/404.png" onclick="movePage()">
+				</div>
+				<div id="detail-text">
+					위에 이미지를 클릭하시면 메인 페이지로 보내드릴게요
+				</div>
+			</div>
+			
+			
+		</div>
+	</body>
+	<style>
+		@font-face {
+			font-family: "Godo";
+			src: url('img/GodoM.woff') format('woff');
+		}
+		
+		@keyframes spin{
+			0%{
+				transform:rotateZ(0deg);
+			}
+			33%{
+				transform:rotateZ(-20deg);
+			}
+			66%{
+				transform:rotateZ(20deg);
+			}
+			to{
+				transform:rotateZ(0deg);
+			}
+		}
+
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin:0;
+			padding:0;
+			background-color: black;
+		}
+		
+		#wrapper{
+			width:80%;
+			margin:0 auto;
+		}
+
+		#header {
+			height: 100px;
+		}
+
+		#detail {
+			width:100%;
+		}
+		
+		#detail-title{
+			color: white;
+			font-family:"Godo";
+			font-size:35pt;
+			line-height:200px;
+		}
+		
+		#detail-img{
+			width:100%;
+			height:400px;
+			text-align:center;
+		}
+		#detail-img img{
+			height:100%;
+			cursor:pointer;
+		}
+		
+		#detail-img img:hover{
+			Animation:spin 3s infinite;
+		}
+		
+		#detail-text{
+			color:white;
+			font-family:"Godo";
+			text-align:center;
+			font-size:15pt;
+			line-height:100px;
+		}
+	</style>
+	<script>
+		function movePage(){
+			location.href='https://likelion11-kangwon.github.io/Trillion/';
+		}
+	</script>
+</html>
