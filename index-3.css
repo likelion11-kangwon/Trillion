@@ -1,3 +1,19 @@
 #crew-scroll{
-    
+        background-image: url(스크린샷\ 2023-04-03\ 175608.png)
+    }
+    #pink-circle:hover{
+        background-color: rgb(236, 168, 84);
+    }
+#caution {
+    color: red;
 }
+#suno {font-size: 50px;}
+#pink-circle{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(244, 176, 176);
+    border: 10px dashed rgb(57, 54, 54);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 250px;
+    display: inline-block;}
