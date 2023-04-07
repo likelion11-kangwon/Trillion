@@ -1,0 +1,67 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'KimGothicL';
+    src: url('font/KimjungchulGothic-Light.ttf');
+}
+@font-face {
+    font-family: 'KimGothicR';
+    src: url('font/KimjungchulGothic-Regular.ttf');
+}
+@font-face {
+    font-family: 'KimGothicB';
+    src: url('font/KimjungchulGothic-Bold.ttf');
+}
+.scroll1 {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+
+video {
+    width: 100vw;
+    position: fixed;
+}
+
+.name_jiyun {
+    background-color: none;
+    position: absolute; 
+    top: 38%; 
+    width: 100%;
+}
+.name_jiyun #name { 
+    margin-top: -24px; 
+    text-align: center; 
+    font-size: 48px; 
+    color: #ffffff;
+    word-spacing:50px;
+    font-family: 'KimGothicL';
+}
+.name_jiyun #hello { 
+    margin-top: 30px; 
+    text-align: center; 
+    font-size: 18px; 
+    color: #ffffff;
+    word-spacing:0px;
+    line-height:30px;
+    font-family: 'KimGothicR';
+    
+}
+.scroll2 {
+    background: #fff;
+    width: 132%;
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-bottom: 40%;
+    z-index: 0;
+    margin-top: 1300px;
+}
