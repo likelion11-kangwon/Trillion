@@ -75,7 +75,7 @@ video {
 .scroll2 .scroll2_inner{
     background: #fff;
     width: 132%;
-    height: 1300px;
+    height: 1600px;
     position: absolute;
     margin-top: 120px;
     text-align: center;
@@ -146,4 +146,29 @@ video {
     transform: rotate(30deg);
     border: none;
     background-color: #fff;
+}
+.movie {
+    width: 132vw;
+    margin-top: 1100px;
+    color:palevioletred;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'KimGothicR';
+}
+.scroll3 {
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    margin-top:3000px;
+    background-color: palevioletred;
+    text-align: center;
+}
+.timetable {
+    font-size: 50px;
+    margin-top: 180px;
+    font-family: 'KimGothicB';
+}
+#time {
+    width: 25vw;
+    margin-top: 30px;
 }
