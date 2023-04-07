@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설지윤 스토리 | 설지윤</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+    <div class = scroll1>
+        <video muted autoplay loop>
+            <source src = "video/purplesky.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+        </video>
+        <div class = name_jiyun>
+            <p id = name>SEOL JI YUN<br></p>
+            <p id = hello>내 개인 페이지에 온 걸 환영해.<br>
+                          나와 함께하는 모든 순간 순간이,<br>
+                          화려하게 빛날거야. 알아들었으면 끄덕여.</p>
+        </div>
+    </div>
+    <div class = scroll2>
+        <div class = scroll2_inner>
+        <div class = img1>
+            <img id="img11" src="img/movie1.jpg" />
+        </div>
+        <button type="button" onclick="toggleLeft()" class="button_left" id="arrow"><img  src="img/arrow.PNG"></button>
+        <div class = img2>
+            <p id = mname>인사이드 아웃</p>
+            <img id="img22" src="img/movie2.jpg" />
+            <p id = mcontent> 11살 소녀 라일리의 머리 속에서 일어나는 감정들의 모험을 그린 애니메이션이다.
+                새로운 환경에서의 생활에 적응하지 못하는 라일리의 혼란스러운 감정을 엿볼 수 있다.
+                 라일리의 머리 속에 있는 감정들을 표현하는 방식이 놀랍고 유쾌하다. 기쁨이가 과연 좋은 역할일까?</p>
+        </div>
+        <button type="button" onclick="toggleRight()" class="button_right" id="arrow"><img  src="img/arrow.PNG"></button>
+        <div class = img3>
+            <img id="img33" src="img/movie3.jpg" />
+        </div>
+        </div>
+    </div>
+    <script>
+        a=1;b=2;c=3;
+        function toggleLeft() {
+            a++;b++;c++;
+            if(a>=7){
+                a=1;
+            }
+            if(b>=7){
+                b=1;
+            }
+            if(c>=7){
+                c=1;
+            }
+          document.getElementById("img11").src = "img/movie"+a+".jpg";
+          document.getElementById("img22").src = "img/movie"+b+".jpg";
+          document.getElementById("img33").src = "img/movie"+c+".jpg";
+        }
+        i = 1;j = 2;x = 3;
+        function toggleRight() {
+            i--;j--;x--;
+            if(i<=0){
+                i=6;
+            }
+            if(j<=0){
+                j=6;
+            }
+            if(x<=0){
+                x=6;
+            }
+          document.getElementById("img11").src = "img/movie"+i+".jpg";
+          document.getElementById("img22").src = "img/movie"+j+".jpg";
+          document.getElementById("img33").src = "img/movie"+x+".jpg";
+        }
+      </script>
+</body>
+</html>
