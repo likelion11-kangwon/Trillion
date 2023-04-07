@@ -42,6 +42,15 @@
     </div>
     <script>
         a=1;b=2;c=3;
+        var arr_mname = ['코코', '인사이드아웃', '쿵푸팬더3','몬스터대학교', '소울','주토피아'];
+        var arr_mcontent = [
+        '코코(Coco)는 자신이 음악가가 되기를 꿈꾸는 소년 미구엘(Miguel)의 이야기를 담은 애니메이션이다. 그러나 그의 가문은 오랫동안 음악을 금지하고 있어, 미구엘은 가문의 엄격한 규칙을 어기고 음악을 연주하게 된다. 미구엘은 음악을 연주하는 동안 우연히 저승세계에 갇히게 되고, 자신의 가족들과 만나게 된다.', 
+        '11살 소녀 라일리의 머리 속에서 일어나는 감정들의 모험을 그린 애니메이션이다. 새로운 환경에서의 생활에 적응하지 못하는 라일리의 혼란스러운 감정을 엿볼 수 있다. 라일리의 머리 속에 있는 감정들을 표현하는 방식이 놀랍고 유쾌하다. 기쁨이가 과연 좋은 역할일까?', 
+        '쿵푸 마스터 팬더의 출생의 비밀이 밝혀지고, 악당 카이와의 대결을 준비하며, 새로운 쿵푸 마스터들을 만나 성장하는 이야기.',
+        '몬스터들이 사람들의 두려움을 재료로 쓰는 에너지 회사에서, 모토사이클에 새로운 주유제를 발견한 마이크와 재카센이 소환된 대학교인 몬스터대학교에서 공부하며 친구가 되는 이야기를 그린 애니메이션 영화이다.', 
+        '중년의 음악 선생님 조가 사망 직전 재즈 클럽에서 갑작스러운 이벤트로 영혼 세계에 빠지게 되며, 여러 영혼들과 함께 인생을 되돌아보며 살아가는 이야기를 담은 디즈니 애니메이션 영화. 하지만, 그의 새로운 목표와 꿈을 위한 여정을 떠나게 되면서 그의 이야기는 전개된다.',
+        '주토피아는 동물들만 살고 있는 도시에서, 토끼 경찰관과 사자 사기꾼이 함께 사건을 해결하며 성장하는 이야기를 담은 애니메이션 영화이다. 인종 차별과 선입견을 다루면서도 유쾌하고 따뜻한 메시지를 전달하며, 2017년 아카데미 애니메이션상을 수상했다.'
+    ]; 
         function toggleLeft() {
             a++;b++;c++;
             if(a>=7){
@@ -56,6 +65,8 @@
           document.getElementById("img11").src = "img/movie"+a+".jpg";
           document.getElementById("img22").src = "img/movie"+b+".jpg";
           document.getElementById("img33").src = "img/movie"+c+".jpg";
+          document.getElementById('mname').innerText = arr_mname[b-1];
+          document.getElementById('mcontent').innerText = arr_mcontent[b-1];
         }
         i = 1;j = 2;x = 3;
         function toggleRight() {
@@ -72,6 +83,8 @@
           document.getElementById("img11").src = "img/movie"+i+".jpg";
           document.getElementById("img22").src = "img/movie"+j+".jpg";
           document.getElementById("img33").src = "img/movie"+x+".jpg";
+          document.getElementById('mname').innerText = arr_mname[j-1];
+          document.getElementById('mcontent').innerText = arr_mcontent[j-1];
         }
       </script>
 </body>
