@@ -19,7 +19,7 @@ var pages=[
 
 var correct_cnt=0;
 var cur=0;
-var answer=[1, 0, 1, 0, 1];
+var answer=[0, 0, 0, 0, 0];
 
 function movePage(n){
 	for(var i=0; i<10; i++){
