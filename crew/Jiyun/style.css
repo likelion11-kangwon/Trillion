@@ -162,11 +162,15 @@ video {
     margin-top:3000px;
     background-color: palevioletred;
     text-align: center;
+    
 }
 .timetable {
     font-size: 50px;
     margin-top: 180px;
     font-family: 'KimGothicB';
+    /* opacity: 1;
+    transition: all 0.5s; */
+
 }
 #time {
     width: 25vw;
