@@ -1,0 +1,177 @@
+#body {
+    background-color: rgb(254, 255, 247);
+    filter:drop-shadow(1px 1px 4px #aaaaaa);
+}
+#top { 
+    padding-top: 3%;
+    font-weight: 1000;
+    padding-left: 50px;
+    font-size: larger;
+}
+#main{
+    font-size: 100px;
+    font-weight: 800;
+    text-align: center;
+    font-family: sans-serif; 
+    text-shadow: 5px 5px 5px beige;
+    
+    position:relative;
+    padding-top : 0;
+    top:50px;
+    height : 50px;
+    line-height: 50px;
+}
+#profile {
+    font-weight: 800;
+    position: relative;
+    top: -250px;
+    left: 400px;
+}
+#time{
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    top : 330px;
+    left: 1140px;
+}
+#table {
+    font-weight: 900;
+    border-color: rgb(100, 100, 100);
+    margin: 40px;
+    width: 400px;
+	height: 600px;
+	position: relative;
+    top: -650px;
+    left: 950px;
+    text-align: center;
+    
+}
+#etc1 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    left: 230;
+    bottom: 550;
+}
+#etc2 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    left: 230;
+    bottom: 400;
+}
+#etc3 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    left: 230;
+    bottom: 250;
+}
+#img {
+    width: 250px;
+	height: 380px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+#img3 {
+    width: 350px;
+	height: 200px;
+    position: relative;
+    left: 700;
+    bottom: 1600;
+}
+#img3_1 {
+    position: relative;
+    left: 410;
+    bottom: 1580;
+}
+#music {
+    position: relative;
+    left: 170;
+    bottom: 1550;
+    font-size: x-large;
+}
+#img4 {
+    width: 150px;
+	height: 170px;
+    position: relative;
+    left: -100;
+    bottom: 1280; 
+}
+#img4_1 {
+    position: relative;
+    left: -300;
+    bottom: 1260;
+}
+#img5 {
+    width: 270px;
+	height: 200px;
+    position: relative;
+    left: -120;
+    bottom: 1450;
+}
+#img5_1 {
+    font-size: x-large;
+    position: relative;
+    left: 1120;
+    bottom: 1720;
+    font-weight: 700;
+}
+#img6 {
+    width: 270px;
+	height: 200px;
+    position: relative;
+    left: 700;
+    bottom: 1200;
+}
+#img7 {
+    width: 220px;
+	height: 200px;
+    position: relative;
+    left: 750;
+    bottom: 1200;
+}
+#img8 {
+    width: 240px;
+	height: 300px;
+    position: relative;
+    left: -130;
+    bottom: 840;
+}
+#img8_1{
+    font-size: x-large;
+    position: relative;
+    left: -320;
+    bottom: 810;
+    font-weight: 700;
+}
+#img9 {
+    width: 300px;
+	height: 250px;
+    position: relative;
+    left: -230;
+    bottom: 720;
+}
+#img9_1{
+    font-size: x-large;
+    position: relative;
+    left: 660;
+    bottom: 920;
+    font-weight: 700;
+}
+#img10 {
+    width: 180px;
+	height: 230px;
+    position: relative;
+    left: 1250;
+    bottom: 1100;
+}
+#img10_1{
+    font-size: x-large;
+    position: relative;
+    left: 1090;
+    bottom: 1070;
+    font-weight: 700;
+}
