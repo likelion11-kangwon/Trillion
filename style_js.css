@@ -1,0 +1,312 @@
+*{
+    background-color: rgb(243, 240, 236);
+}
+.frame{
+    margin: 20px 150px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.navigator{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+}
+
+.click{
+    display:inline;
+    margin:0;
+    margin-left: 25px;
+}
+.index{
+    margin:0;
+    width: 400px;
+    padding-left: 600px;
+    color:rgba(95, 157, 227, 0.913);
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 20px;
+}
+
+/*section1*/
+
+.intro{
+    display:flex;
+    flex-direction: column;
+    
+    width: 2000px;
+    height: 350px;
+    /* border-top: 0px;
+    border-bottom: 768px; */
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+}
+
+.section1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.name{
+    font-size:70px;
+    color:rgba(247, 175, 205, 0.913);
+}
+
+.me{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight:600;
+    color: rgb(95, 93, 97);
+}
+.img1{
+    width: 115%;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+/*section2*/
+
+.section2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.field{
+    margin: 35px 0 35px 0;
+    color:rgba(95, 157, 227, 0.913);
+}
+
+.field_img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img2_1{
+    width: 30%;
+    margin-right: 80px;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-image-outset: 10px;
+}
+.img2_2{
+    width: 30%;
+    border: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    border-image-outset: 10px;
+}
+.tstack{
+    margin: 35px 0 35px 0;
+    color:rgba(95, 157, 227, 0.913);
+}
+.img_tstack{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+    
+}
+    /* width: 10%;
+    margin-left: 140px;
+    vertical-align: middle;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;
+    border-image-outset: 10px;
+    margin-bottom: 60px; */ 
+
+.img2_3_1{
+    width: 10%;
+}
+.img2_3_2{
+    width: 10%;
+}
+.img2_3_3{
+    width: 15%;
+}
+.img2_3_4{
+    width: 10%;
+}
+
+/*section3*/
+
+.interests{
+    display:flex;
+    flex-direction: column;
+}
+
+/* interest_1 */
+.interest_1{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 100px 0 100px 0;
+}
+
+.img3_1{
+    width: 40%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;
+    border-image-outset: 10px;
+
+}
+
+.planning{
+    margin: 0px 70px;
+
+}
+.planning>h1{
+    color:rgba(95, 157, 227, 0.913);
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.planning>p{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(95, 93, 97);
+}
+
+/* interest_2 */
+.interest_2{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 100px 0 100px 0;
+
+}
+.img3_2{
+    width: 45%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;    
+}
+
+.guitar{
+    margin: 0px 70px 0 0;
+}
+
+.guitar>h1{
+    color:rgba(95, 157, 227, 0.913);
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.guitar>p{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(95, 93, 97);
+}
+
+/* interest_3 */
+.interest_3{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 100px 0 100px 0;
+}
+.img_concert{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+}
+.img3_3_1{
+    width: 35%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;
+    border-image-outset: 10px;
+}
+.img3_3_2{
+    width: 35%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;
+    border-image-outset: 10px;
+}
+.img3_3_3{
+    width: 35%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;
+    border-image-outset: 10px;
+}
+
+.concert{
+    margin-right: 0px;
+    margin-left: 100px;
+    width: 600px;
+}
+
+.concert>h1{
+    color:rgba(95, 157, 227, 0.913);
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.concert>p{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(95, 93, 97);
+}
+
+/* interest_4 */
+.interest_4{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 100px 0 100px 0;
+
+}
+.img_musical{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin-bottom: 100px;
+    width:800px;
+    /* margin-left: 60px; */
+
+}
+.img3_4_1{
+    width: 45%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray; 
+    margin-right: 10px;   
+}
+.img3_4_2{
+    width: 45%;
+    border: 5px;
+    border-style: solid;    
+    border-color: lightgray;  
+}
+.musical{
+    margin-right: 50px;
+    margin-left: 0px;
+    width: 700px;
+}
+
+.musical>h1{
+    color:rgba(95, 157, 227, 0.913);
+    font-size: 40px;
+    margin-top: 0px;
+    margin-right: 100px;
+}
+
+.musical>p{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight:600;
+    color: rgb(95, 93, 97);
+}
