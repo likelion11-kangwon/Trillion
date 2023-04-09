@@ -16,7 +16,6 @@
     src: url('font/KimjungchulGothic-Bold.ttf');
 }
 .scroll1 {
-    background-color: yellow;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -162,7 +161,7 @@ video {
     margin-top:3000px;
     background-color: palevioletred;
     text-align: center;
-    
+    overflow: hidden;
 }
 .timetable {
     font-size: 50px;
