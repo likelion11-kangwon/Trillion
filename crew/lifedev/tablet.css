@@ -1,0 +1,183 @@
+@media(max-width:1000px) {
+	.f_title {
+		font-size: 23pt;
+	}
+
+	.f_detail {
+		font-size: 13pt;
+	}
+
+	#header {
+		width: 100%;
+		height: 60px;
+		background-color: black;
+		box-sizing: border-box;
+	}
+
+	#logo {
+		padding-left: 50px;
+		width: 50px;
+		height: 60px;
+		line-height: 60px;
+		float: left;
+	}
+
+	#logo img {
+		width: 100%;
+		line-height: 60px;
+		vertical-align: middle;
+	}
+
+	#logo-text {
+		padding-left: 50px;
+		line-height: 60px;
+		float: left;
+	}
+
+
+	#main-page {
+		width: 100%;
+		height: 800px;
+		background-image: linear-gradient(180deg,
+				rgba(0, 0, 0, 1) 0%,
+				rgba(25, 25, 25, 1) 70%,
+				rgba(200, 200, 200, 1) 90%,
+				rgba(255, 255, 255, 1) 100%);
+		overflow-x: hidden;
+	}
+
+	#wrapper {
+		width: 85%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	#header-space {
+		width: 100%;
+		height: 60px;
+	}
+
+	#profile {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	#profile-image {
+		display: flex;
+		margin-bottom: 20px;
+		width: 35%;
+		float: left;
+	}
+
+	#profile-image img {
+		width: 100%;
+	}
+
+	#profile-detail {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		height: 100%;
+		float: left;
+		margin-left: 60px;
+		margin-top: 5px;
+	}
+
+	#profile-detail > * {
+		margin-bottom: 20px;
+	}
+
+	#profile-name {
+		margin-bottom: 40px;
+		opacity: 0;
+
+		animation-duration: 0.5s;
+		animation-name: fadein;
+		animation-delay: 0s;
+		animation-fill-mode: both;
+	}
+
+	#profile-name * {
+		margin-right: 10px;
+	}
+
+	#profile-school {
+		animation-duration: 0.5s;
+		animation-name: fadein;
+		animation-delay: 0.5s;
+		animation-fill-mode: both;
+	}
+
+	#profile-role {
+		animation-duration: 0.5s;
+		animation-name: fadein;
+		animation-delay: 0.7s;
+		animation-fill-mode: both;
+	}
+
+	#profile-language {
+		margin-top: 5vw;
+		animation-duration: 0.5s;
+		animation-name: fadein;
+		animation-delay: 1s;
+		animation-fill-mode: both;
+	}
+
+	.language-line {
+		display: flex;
+		width: 100%;
+	}
+
+	.language-line img {
+		width: 30px;
+		height: 30px;
+		filter: drop-shadow(1px 1px 3px #aaaaaa);
+		float: left;
+	}
+
+	#language-line-detail {
+		float: left;
+		line-height: 30px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+
+
+	#portfolio-page {
+		width: 100%;
+		height: auto;
+	}
+
+	#topic {
+		width: 100%;
+		margin-top: 120px;
+	}
+
+	.topic-text {
+		font-size: 28pt;
+		margin-bottom: 60px;
+	}
+
+	.topic-detail {
+		line-height: 200%;
+	}
+
+	#tier-img {
+		display: inline-block;
+		height: 24px;
+	}
+
+	#tier-text {
+		display: inline-block;
+		line-height: 24px;
+		vertical-align: top;
+	}
+
+
+
+	#footer {
+		width: 100%;
+		height: 100px;
+	}
+}

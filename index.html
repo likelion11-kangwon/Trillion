@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="index-1.css">
+		<link rel="stylesheet" href="index-2.css">
+		<link rel="stylesheet" href="index-3.css">
+		<link rel="stylesheet" href="index-4.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="img/confetti_v2.js"></script>
+		<script src="index.js"></script>
+        <title>내 통장에 1조</title>
+    </head>
+    <body>
+        <div id="main-scroll">
+            <div class="scroll-one">
+                <div class="introducing">
+                    <div class="intro">
+                        1조보다 더 큰 가치를 지닌<br>
+                        팀을 찾는다면?
+                    </div>
+                    <div class="teamname">
+                        내 통장에 1조!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="team-scroll">
+            <h1 id="team-scroll-title">저희 팀은 이런 팀이에요!</h1>
+            <div class="container">
+                 <div id>체계적인<br/>계획</div>
+                 <div>최강<br/>팀워크</div>
+                 <div>자유로운<br/>의견 공유</div>        
+            </div>
+            <div class="inline">
+                <span>팀원 모두가 계획적인 성향을<br/>띠고 있어 체계적으로<br/>척척 진행돼요!</span>
+                <span>서로의 주장을 수렴하고,<br/>배려하는 팀원들이 모여서<br/>서로 조화가 잘 돼요!</span>
+                <span>모르는게 있을때 서스럼없이<br/>물어보며, 각자 서로의<br/>의견을 존중해요!</span>
+        </div>
+
+        </div>
+        <div id="crew-scroll">
+            <h3 id="caution"><b><ins>&lt집중&gt 페이지 마지막에 퀴즈가 있습니다!!</ins></b></h3>
+        <hr><br><br>
+
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+
+
+        <span id="pink-circle">
+            <a id="suno"href="crew\suno\suno_page.html">권순호</a>
+        </span>
+
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+
+        <span id="pink-circle">
+            <a id="suno"href="crew\Jiyun\index.html">설지윤</a>
+        </span>
+
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+
+        <span id="pink-circle">
+            <a id="suno"href="crew\scc9811\scc9811.html">전경석</a>
+        </span>
+
+        <br><br>
+
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+
+        <span id="pink-circle">
+            <a id="suno"href="crew\jsjs\jisoo.html">심지수</a>
+        </span>
+
+        <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+
+        <span id="pink-circle">
+            <a id="suno"href="crew\lifedev\index.html">지우성</a>
+        </span>
+        </div>
+        
+        <div id="quiz-scroll">
+            <div id="quiz_main" class="">
+                <div id="quiz_main_text_area">
+                    <h4 id="quiz_main_text">O X 퀴즈</h4>
+                </div>
+                <div id="quiz_start_button_area"></div>
+                <div id="quiz_start_button_area">
+                    <span class="quiz_start_button blue" onclick="movePage(1)">문제 풀러가기 -></span>
+                </div>
+            </div>
+            <!-- 퀴즈 O/X 선택 페이지-->
+        
+            <div id="quiz_page1" class="hide_page">
+                <div id="quiz_page_number">Quiz 1</div>
+                <div id="quiz_question">1. 권순호 팀원이 가장 좋아하는 가수는 방탄소년단이다</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button sky" onclick="chooseAns(0, 1)">O</span>
+                    </div>
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button red" onclick="chooseAns(0, 0)">X</span>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+            <div id="quiz_page2" class="hide_page">
+                <div id="quiz_page_number">Quiz 2</div>
+                <div id="quiz_question">2. 전경석 팀원의 가장 높았던 백준 대회 성적은 1등이다 </div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button sky" onclick="chooseAns(1, 1)">O</span>
+                    </div>
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button red" onclick="chooseAns(1, 0)">X</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_page3" class="hide_page">
+                <div id="quiz_page_number">Quiz 3</div>
+                <div id="quiz_question">3. 설지윤 팀원은 애니메이션을 좋아한다</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button sky" onclick="chooseAns(2, 1)">O</span>
+                    </div>
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button red" onclick="chooseAns(2, 0)">X</span>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_page4" class="hide_page">
+                <div id="quiz_page_number">Quiz 4</div>
+                <div id="quiz_question">4. 전경석 팀원의 백준 티어는 골드1이다</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button sky" onclick="chooseAns(3, 1)">O</span>
+                    </div>
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button red" onclick="chooseAns(3, 0)">X</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="quiz_page5" class="hide_page">
+                <div id="quiz_page_number">Quiz 5</div>
+                <div id="quiz_question">5. 심지수 팀원은 컴퓨터공학과를 복수전공한다</div>
+                <div id="quiz_ox_cards">
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button sky" onclick="chooseAns(4, 1)">O</span>
+                    </div>
+                    <div id="quiz_card_area">
+                        <span class="quiz_ox_button red" onclick="chooseAns(4, 0)">X</span>
+                    </div>
+                </div>
+            </div>
+        
+            
+        
+            <!-- 퀴즈 정답여부 페이지-->
+            <div id="quiz_o_correct" class="hide_page">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">O</div>
+                        <div id="quiz_correct_tf_text">정답입니다!</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <span class="quiz_next_button gray" onclick="nextProblem()">다음문제 -></span>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div id="quiz_o_incorrect" class="hide_page">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">O</div>
+                        <div id="quiz_correct_tf_text">오답입니다...</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <span class="quiz_next_button gray" onclick="nextProblem()">다음문제 -></span>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_x_correct" class="hide_page">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">X</div>
+                        <div id="quiz_correct_tf_text">정답입니다!</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <span class="quiz_next_button gray" onclick="nextProblem()">다음문제 -></span>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="quiz_x_incorrect" class="hide_page">
+                <div id="quiz_correct_workspace">
+                    <div id="quiz_correct_text_area">
+                        <div id="quiz_correct_ox_text">X</div>
+                        <div id="quiz_correct_tf_text">오답입니다...</div>
+                    </div>
+                    <div id="next_quiz_button_area">
+                        <span class="quiz_next_button gray" onclick="nextProblem()">다음문제 -></span>
+                    </div>
+                </div>
+            </div>
+			<div id="quiz-final" class="hide_page">
+				<div id="quiz-final-header"></div>
+				<div id="quiz-final-body">
+					<div id="quiz-final-title">
+						n문제를 맞췄습니다!
+					</div>
+					<div id="quiz-final-body-img">
+						<img src="img/quiz-cong.png" onclick="moveTop()">
+					</div>
+					<div id="quiz-final-body-text">
+						<div id="quiz-final-comment">
+							곰두리를 클릭하여 맨 위로 이동하세요
+						</div>
+					</div>
+				</div>
+				<canvas id="canvas"></canvas>
+				<div id="buttonContainer">
+					<button class="canvasBtn" id="stopButton"></button>
+					<button class="canvasBtn" id="startButton"></button>
+				</div>
+			</div>
+        </div>
+    </body>
+</html>

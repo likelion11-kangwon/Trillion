@@ -1,0 +1,177 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'KimGothicL';
+    src: url('font/KimjungchulGothic-Light.ttf');
+}
+@font-face {
+    font-family: 'KimGothicR';
+    src: url('font/KimjungchulGothic-Regular.ttf');
+}
+@font-face {
+    font-family: 'KimGothicB';
+    src: url('font/KimjungchulGothic-Bold.ttf');
+}
+.scroll1 {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    overflow: hidden;
+}
+
+video {
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background-size: cover;
+}
+
+.name_jiyun {
+    background-color: none;
+    position: absolute; 
+    top: 38%; 
+    width: 100%;
+}
+.name_jiyun #name { 
+    margin-top: -24px; 
+    text-align: center; 
+    font-size: 48px; 
+    color: #ffffff;
+    word-spacing:50px;
+    font-family: 'KimGothicL';
+}
+.name_jiyun #hello { 
+    margin-top: 30px; 
+    text-align: center; 
+    font-size: 18px; 
+    color: #ffffff;
+    word-spacing:0px;
+    line-height:30px;
+    font-family: 'KimGothicR';
+    
+}
+.scroll2 {
+    font-family: 'KimGothicR';
+    background: #fff;
+    width: 132%;
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-bottom: 40%;
+    z-index: 0;
+    margin-top: 1300px;
+}
+.scroll2 .scroll2_inner{
+    background: #fff;
+    width: 132%;
+    height: 1600px;
+    position: absolute;
+    margin-top: 120px;
+    text-align: center;
+    overflow: hidden;
+}
+.img2 #mname{
+    width: 100%;
+    font-size: 45px;
+    margin-bottom: 60px;
+    color: cornflowerblue;
+}
+.img2 #mcontent{
+    font-size: 18px;
+    margin: 20px;
+    color: cornflowerblue;
+}
+.scroll2_inner .img1{
+    width: 35vw;
+    height: 800px;
+    position: relative;
+    margin-top: 5%;
+    float: left;
+    transform: rotate(-45deg);
+}
+.scroll2_inner .img2{
+    width: 35vw;
+    height: 800px;
+    position: relative;
+    margin-bottom: 50px;
+    float: left;
+}
+.scroll2_inner .img3{
+    width: 35vw;
+    height: 800px;
+    position: relative;
+    margin-top: 5%;
+    float: left;
+    transform: rotate(45deg);
+}
+#img11 {
+    max-width: 80%;
+    border-radius: 70%;
+}
+#img22 {
+    max-width: 80%;
+    border-radius: 70%;
+}
+#img33 {
+    max-width: 80%;
+    border-radius: 70%;
+}
+.button_left{
+    width: 5vw;
+    float: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 10%;
+    transform: rotate(-210deg);
+    border: none;
+    background-color: #fff;
+}
+.button_right{
+    width: 5vw;
+    float: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 10%;
+    transform: rotate(30deg);
+    border: none;
+    background-color: #fff;
+}
+.movie {
+    width: 132vw;
+    margin-top: 1100px;
+    color:palevioletred;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'KimGothicR';
+}
+.scroll3 {
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    margin-top:3000px;
+    background-color: palevioletred;
+    text-align: center;
+    overflow: hidden;
+}
+.timetable {
+    font-size: 50px;
+    margin-top: 180px;
+    font-family: 'KimGothicB';
+    /* opacity: 1;
+    transition: all 0.5s; */
+
+}
+#time {
+    width: 25vw;
+    margin-top: 30px;
+}

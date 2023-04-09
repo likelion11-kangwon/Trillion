@@ -1,0 +1,48 @@
+@font-face {
+    font-family:"Godo";
+    src:url('img/GodoM.woff') format('woff');
+}
+@keyframes fadein{
+	0%{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+.godo{
+	font-family:"Godo", sans-serif;
+}
+.black{
+	color:black;
+}
+.white{
+	color:white;
+}
+.gray{
+	color:gray;
+}
+.orange{
+	color:orange;
+}
+.platinum{
+	color:#63EABD;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(255, 255, 255, 0.8);
+}
+
+a{
+	color:#63EABD;
+	text-decoration-line:none;
+}
+a:visited{
+	color:#63EABD;
+	text-decoration-line:none;
+}
