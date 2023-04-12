@@ -1,0 +1,37 @@
+#team-scroll2{
+    background-color: #f7f8f2;
+    margin: 0;
+    padding: 0;
+    width : 100%;
+    height : 700px;
+}
+#team-scroll2>h1{
+    margin-left: 120px;
+    margin-top: 0px;
+    padding-top: 50px;
+    /* padding-bottom: 30px; */
+    font-size: 40px;
+}
+.notion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .notion_img {
+    width: 360px;
+    height: 180px;
+  }
