@@ -12,7 +12,6 @@
     flex-direction: row;
     justify-content: space-between;
     position:fixed;
-    top: 0;
 }
 
 .click{
@@ -22,14 +21,11 @@
 }
 .index{
     margin:0;
-    width: 1400px;
-    text-align: center;
-    /* padding-left: 900px; */
+    width: 400px;
+    padding-left: 600px;
     color:rgba(95, 157, 227, 0.913);
     border-bottom: 2px solid lightgray;
-    padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 /*section1*/
@@ -38,11 +34,11 @@
     display:flex;
     flex-direction: column;
     
-    width: 1200px;
-    height: 450px;
+    width: 2000px;
+    height: 350px;
     /* border-top: 0px;
     border-bottom: 768px; */
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 
 }
@@ -64,9 +60,9 @@
     color: rgb(95, 93, 97);
 }
 .img1{
-    width: 60%;
-    margin-top: 200px;
-    /* margin-left: 150px; */
+    width: 115%;
+    margin-top: 50px;
+    margin-right: 50px;
 }
 
 /*section2*/
@@ -78,7 +74,7 @@
 }
 
 .field{
-    margin: 80px 0 80px 0;
+    margin: 35px 0 35px 0;
     color:rgba(95, 157, 227, 0.913);
 }
 
@@ -103,7 +99,7 @@
     border-image-outset: 10px;
 }
 .tstack{
-    margin: 80px 0 80px 0;
+    margin: 35px 0 35px 0;
     color:rgba(95, 157, 227, 0.913);
 }
 .img_tstack{
@@ -193,7 +189,7 @@
 }
 
 .guitar{
-    margin: 0px 100px 0 0;
+    margin: 0px 70px 0 0;
 }
 
 .guitar>h1{
@@ -207,7 +203,6 @@
     font-size: 20px;
     font-weight:600;
     color: rgb(95, 93, 97);
-    /* width: 400px; */
 }
 
 /* interest_3 */
@@ -315,17 +310,3 @@
     font-weight:600;
     color: rgb(95, 93, 97);
 }
-
-  /* Desktop First
- 
-@media (max-width: 1023px) {
-  .title { font-size: 16px; }
-}
- 
-@media (max-width: 767px) {
-  .title { font-size: 14px; }
-}
- 
-@media (max-width: 639px) {
-  .title { font-size: 12px; }
-} */
